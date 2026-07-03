@@ -1,0 +1,21 @@
+# The Digital Workspace - robots.txt
+# Allow all search engines to crawl the website
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+# Sitemap location
+Sitemap: https://the-digital-workspace.netlify.app/sitemap.xml
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1
+
+# User-agents for specific search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /assets/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /assets/
